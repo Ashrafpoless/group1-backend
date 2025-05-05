@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 5050;
 
 
 app.use(cors({
-    origin: process.env.FRONTEND_URL, // Allow this specific origin
+    origin: 'https://group1-frontend-six.vercel.app', // Allow this specific origin
     methods: 'GET,POST,PUT,DELETE',  // Specify allowed HTTP methods
     credentials: true                // Enable sending cookies with requests
 }));
